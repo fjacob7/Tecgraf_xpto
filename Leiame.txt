@@ -1,0 +1,40 @@
+										DESCRIÇÃO
+
+		A seguir será apresentado a descrição do algoritmo XPTO do Desafio da Tecgraf.
+
+1 - Na linha 1 é iniciado o pacote xpto.
+
+2 - Nas linhas 3 a 7 são importados bibliotecas para a utilização de leitura e escrita de arquivos.
+
+3 - Nas linhas 9 a 20 é declarada a classe Calculo e criado o método estático calcular para a verificação das matriculas.
+	3.1 - Na linha 12 são declaradas as variáveis da classe.
+	3.2 - Nas linhas 13 a 16 são calculados as variáveis da classe.
+	3.3 - Na linha 17 as variáveis são somadas e guardadas em outra variável. 
+	3.4 - Na linha 18 é definido o retorno da classe.
+
+4 - Nas linhas 22 a 29 é declarada a classe XPTO, iniciado o método main e criação das variáveis e vetores da classe.
+
+5 - Nas linhas 32 a 50 é iniciado o tratamento de excessões com a estrutura de repetições while que lê os quatro primeiros caracteres de cada linha até a ultima linha do arquivo matriculasSemDV.txt. Após a sua execução são guardadas em um vetor as matriculas com seus respectivos códigos.
+	5.1 - Na linha 38 a string do lida no arquivo é transformada em int e guardada em uma variável.
+	5.2 - Na linha 39 o método da classe Calculo é chamado passando como parâmetro a variável definida da linha anterior e guardada em uma variável.
+	5.3 - Na linha 40 a variável definida na linha anterior é tranformada em string hexadecimal em letras maiúsculas guardada em uma variável.
+	5.4 - Na linha 41 a linha lida do arquivo é concatenada com a variável definida na linha anterior e guardada em um vetor.  
+
+6 - Nas linhas 53 a 67 é iniciado o tratamento de excessões com a estrutura de repetição for que escreve as matriculas com seus respectivo códigos no arquivo matriculasComDV.txt.
+	6.1 - Na linha 60 são escritas as matriculas com seus respectivo códigos no arquivo matriculasComDV.txt 
+
+7 - Nas linhas 70 a 89 é iniciado o tratamento de excessões com a estrutura de repetições while que lê os quatro primeiros caracteres de cada linha até a ultima linha do arquivo matriculasParaVerificar.txt. Após a sua execução, são guardadas em um vetor as matriculas com seus respectivos códigos.
+	7.1 - Na linha 77 a string do lida no arquivo é transformada em int e guardada em uma variável.
+	7.2 - Na linha 78 o método da classe Calculo é chamado passando como parâmetro a variável definida da linha anterior e guardada em uma variável.
+	7.3 - Na linha 79 a variável definida na linha anterior é tranformada em string hexadecimal em letras maiúsculas e guardada em uma variável.
+	7.4 - Na linha 80 a linha lida do arquivo é concatenada com a variável definida na linha anterior e guardada em um vetor.
+
+8 - Nas linhas 92 a 108 é iniciado o tratamento de excessões com a estrutura de repetição while que lê cada linha até a ultima linha do arquivo matriculasParaVerificar.txt. Após a sua execução o conteudo das linhas é guardado em um vetor.
+	8.1 - Na linha 99 a linha lida do arquivo é guardada em um vetor. 
+
+9 - Nas linhas 111 a 129 é iniciado o tratamento de excessões com a estrutura de repetição for e a estrutura de decisão if que compara os vetores guardados nas duas leituras de arquivo anteriores e escreve as matriculas com seus respectivos códigos verdadeiros se as posições dos vetores forem iguais ou escreve as matriculas com seus respectivos códigos falso se as posições dos vetores forem diferentes.
+	9.1 - Na linha 119 são escritas as matriculas com seus respectivo códigos no arquivo matriculasVerificadas.txt verdadeira.
+	9.2 - Na linha 121 são escritas as matriculas com seus respectivo códigos no arquivo matriculasVerificadas.txt falso.
+
+10 - Na linha 131 é encerrado o algoritimo.            
+

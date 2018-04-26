@@ -1,0 +1,10 @@
+0154-C falso
+0478-5 verdadeiro
+1343-3 verdadeiro
+5139-8 verdadeiro
+5979-4 verdadeiro
+6931-E falso
+7604-3 verdadeiro
+7927-C falso
+8657-E falso
+8793-5 verdadeiro
